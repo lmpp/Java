@@ -1,0 +1,13 @@
+/* 
+Domyślna implementacja w interfejsach wprowadzona w Javie 8 to nie tylko namiastka wielodziedziczenia 
+czy też „coś na wzór scalowych traitów”. To rozwiązanie poważnego problemu projektowego, który bardzo 
+często wpływa na kształt naszego kodu.
+Klasa abstrakcyjna to taka klasa, która może mieć metody abstrakcyjne. 
+Poza powyższym rządzą się prawie tymi samymi prawami,co zwykłe klasy – mogą dziedziczyć po innych, można
+po nich dziedziczyć i mogą mieć normalne metody oraz implementować interfejsy. 
+Jedyne różnice związane z tym, że są one abstrakcyjne to takie, że nie możemy
+utworzyć obiektu tego typu oraz klasa nie może być jednocześnie abstract i final.
+Różnica polega na tym, że domyślna implementacja zawiera ciało tej metody, a klasy abstrakcyjne zawierają
+jedynie sygnaturę metody, bez jej ciała. Oznacza to, że klasy dziedziczące muszą ‚określić’ ciało tej metody
+(po prostu ją przesłaniając) lub same muszą być wtedy zadeklarowane jako abstrakcyjne. 
+*/
