@@ -1,0 +1,36 @@
+//Main
+
+//Person
+class person{
+  int pesel;
+  public void person(int pesel)
+  {
+    this.pesel=pesel;
+  }
+  public void person()
+}
+
+//VipPerson
+
+//UniversityPerson
+class UniversityPerson extends Person{
+  int id;
+  
+  public UniversityPerson(int pesel ,int id){
+    this.pesel = pesel;
+    this.id = id;
+  }
+}
+
+//Teacher
+class Teacher extends UniversityPersonPerson{
+  int zarobki;
+  
+  public UniversityPerson(int pesel ,int id){
+    this.pesel = pesel;
+    this.id = id;
+    this.zarobki = zarobki;
+  }
+}
+
+//Student
